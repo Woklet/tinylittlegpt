@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tokenizer + dataset
+tokenizer/
+tokenizer_bpe/
+*.json
+*.txt
+*.parquet
+
+# Model checkpoints and binaries
+checkpoints/
+*.pt
+*.bin
+*.meta
+
+# Data files
+data/*.bin
+data/*.txt
+data/*.parquet
+data/*.json
+
+# Cache + HuggingFace
+.cache/
+*.cache/
+~$*
+*.zip
+*.tar.gz
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+*.bak
+*.swp
