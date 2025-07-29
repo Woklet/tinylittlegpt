@@ -16,14 +16,11 @@ This project uses [uv](https://github.com/astral-sh/uv) for Python package manag
 pip install uv
 uv venv .venv
 source .venv/bin/activate
-uv pip install torch tokenizers datasets tqdm pandas numpy
+uv pip install -r requirements.txt
 ```
 
-The dataset preparation scripts also require `pyarrow` for reading parquet files. If you plan to use the ingestion utilities install it as well:
-
-```bash
-uv pip install pyarrow
-```
+The included `requirements.txt` also installs `pyarrow` which is needed for the
+dataset preparation scripts.
 
 ## Preparing Data
 
